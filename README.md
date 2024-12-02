@@ -44,27 +44,24 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
 2. **Gesture Control**: Harnessing natural human motions to interact with technology can create more intuitive and accessible experiences.
 
 
-
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
-  <div style="text-align: center;">
-    <img src="./images/image1.jpg" alt="Virtual Reality" style="width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 5px;">
-    <p>Virtual Reality (VR)**: Gesture-based control enhances immersion and interaction, eliminating the need for physical controllers in VR/AR environments.</p>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: center;">
+  <div>
+    <img src="./images/image1.jpg" alt="Virtual Reality" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>**Virtual Reality (VR):** Gesture-based control enhances immersion and interaction...</p>
   </div>
-  <div style="text-align: center;">
-    <img src="./images/image2.jpg" alt="Assistive Technology" style="width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 5px;">
-    <p>Assistive Technology**: Gesture recognition can empower individuals with disabilities by providing accessible ways to control devices, from smart home systems to mobility aids.</p>
+  <div>
+    <img src="./images/image2.jpg" alt="Assistive Technology" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>**Assistive Technology:** Gesture recognition can empower individuals with disabilities...</p>
   </div>
-  <div style="text-align: center;">
-    <img src="./images/image3.jpg" alt="Interactive Art and Performance" style="width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 5px;">
-    <p>Interactive Art and Performance**: Artists and performers can use gesture-based tools to create dynamic and responsive environments.</p>
+  <div>
+    <img src="./images/image3.jpg" alt="Interactive Art and Performance" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>**Interactive Art and Performance:** Artists and performers can use gesture-based tools...</p>
   </div>
-  <div style="text-align: center;">
-    <img src="./images/image4.jpg" alt="Smart Home Devices" style="width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 5px;">
-    <p>From lighting to smart appliances, gesture control provides a seamless and engaging way to interact with connected devices.</p>
+  <div>
+    <img src="./images/image4.jpg" alt="Smart Home Devices" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>**Smart Home Devices:** Gesture control provides a seamless and engaging way...</p>
   </div>
 </div>
-
 
 ### Broader Impact
 Lumostick's approach showcases the potential of IoT and AI in redefining how humans interact with technology. By exploring alternative interfaces, it opens up possibilities for inclusive and immersive innovations in various fields.
