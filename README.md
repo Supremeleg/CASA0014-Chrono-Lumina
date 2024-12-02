@@ -48,21 +48,21 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
   <tr>
     <td>
       <img src="./images/image1.jpg" alt="Virtual Reality" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>**Virtual Reality (VR):** Gesture-based control enhances immersion and interaction...</p>
+      <p>Virtual Reality (VR): Gesture-based control enhances immersion and interaction, eliminating the need for physical controllers in VR/AR environments.</p>
     </td>
     <td>
       <img src="./images/image2.jpg" alt="Assistive Technology" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>**Assistive Technology:** Gesture recognition can empower individuals with disabilities...</p>
+      <p>Assistive Technology: Gesture recognition can empower individuals with disabilities by providing accessible ways to control devices, from smart home systems to mobility aids.</p>
     </td>
   </tr>
   <tr>
     <td>
       <img src="./images/image3.jpg" alt="Interactive Art and Performance" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>**Interactive Art and Performance:** Artists and performers can use gesture-based tools...</p>
+      <p>Interactive Art and Performance:Artists and performers can use gesture-based tools to create dynamic and responsive environments.</p>
     </td>
     <td>
       <img src="./images/image4.jpg" alt="Smart Home Devices" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>**Smart Home Devices:** Gesture control provides a seamless and engaging way...</p>
+      <p>Smart Home Devices: From lighting to smart appliances, gesture control provides a seamless and engaging way to interact with connected devices.</p>
     </td>
   </tr>
 </table>
