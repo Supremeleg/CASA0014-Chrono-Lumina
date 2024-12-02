@@ -48,28 +48,28 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 1200px; margin: auto;">
 
 <div style="text-align: center; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <img src="image1.jpg" alt="Image 1" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image1.jpg" alt="Image 1" style="max-width: 100%; border-radius: 8px;">
     <p style="color: #555; font-size: 14px; line-height: 1.6; margin-top: 10px;">
         Virtual Reality (VR): Gesture-based control enhances immersion and interaction, eliminating the need for physical controllers in VR/AR environments.
     </p>
 </div>
 
 <div style="text-align: center; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <img src="image2.jpg" alt="Image 2" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image2.jpg" alt="Image 2" style="max-width: 100%; border-radius: 8px;">
     <p style="color: #555; font-size: 14px; line-height: 1.6; margin-top: 10px;">
         Gesture recognition can empower individuals with disabilities by providing accessible ways to control devices, from smart home systems to mobility aids.
     </p>
 </div>
 
 <div style="text-align: center; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <img src="image3.jpg" alt="Image 3" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image3.jpg" alt="Image 3" style="max-width: 100%; border-radius: 8px;">
     <p style="color: #555; font-size: 14px; line-height: 1.6; margin-top: 10px;">
         Artists and performers can use gesture-based tools to create dynamic and responsive environments.
     </p>
 </div>
 
 <div style="text-align: center; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <img src="image4.jpg" alt="Image 4" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image4.jpg" alt="Image 4" style="max-width: 100%; border-radius: 8px;">
     <p style="color: #555; font-size: 14px; line-height: 1.6; margin-top: 10px;">
         From lighting to smart appliances, gesture control provides a seamless and engaging way to interact with connected devices.
     </p>
@@ -168,4 +168,3 @@ We welcome feedback and contributions to expand Lumostick’s capabilities. Feel
 This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
 
 ---
-
