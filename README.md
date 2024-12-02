@@ -107,11 +107,14 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 - **MPU6050**: A six-axis motion sensor capturing real-time gestures.
 - **TensorFlow Lite**: Machine learning library for on-device gesture pattern recognition.
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="./images/gif_slope.gif" alt="GIF 1" style="width: 30%; height: auto; margin: 10px;">
-  <img src="./images/gif_wing.gif" alt="GIF 2" style="width: 30%; height: auto; margin: 10px;">
-  <img src="./images/gif_ring.gif" alt="GIF 3" style="width: 30%; height: auto; margin: 10px;">
-</div>
+<table>
+  <tr>
+    <td><img src="./images/gif_slope.gif" alt="GIF 1" style="width: 300px; height: auto;"></td>
+    <td><img src="./images/gif_wing.gif" alt="GIF 2" style="width: 300px; height: auto;"></td>
+    <td><img src="./images/gif_ring.gif" alt="GIF 3" style="width: 300px; height: auto;"></td>
+  </tr>
+</table>
+
 
 
 
