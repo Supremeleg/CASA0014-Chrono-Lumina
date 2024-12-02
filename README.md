@@ -45,32 +45,29 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
 
 
 ### Future Applications
-<table>
+<table style="width: 100%; table-layout: fixed;">
   <tr>
-    <td>
-      <img src="./images/image1.jpg" alt="描述1" style="width: 100px; height: 100px; object-fit: cover;">
+    <td style="text-align: center;">
+      <img src="./images/image1.jpg" alt="描述1" style="width: 100%; height: auto; object-fit: cover;">
       <p>描述1</p>
     </td>
-    <td>
-      <img src="./images/image2.jpg" alt="描述2" style="width: 100px; height: 100px; object-fit: cover;">
+    <td style="text-align: center;">
+      <img src="./images/image2.jpg" alt="描述2" style="width: 100%; height: auto; object-fit: cover;">
       <p>描述2</p>
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="./images/image3.jpg" alt="描述3" style="width: 100px; height: 100px; object-fit: cover;">
+    <td style="text-align: center;">
+      <img src="./images/image3.jpg" alt="描述3" style="width: 100%; height: auto; object-fit: cover;">
       <p>描述3</p>
     </td>
-    <td>
-      <img src="./images/image4.jpg" alt="描述4" style="width: 100px; height: 100px; object-fit: cover;">
+    <td style="text-align: center;">
+      <img src="./images/image4.jpg" alt="描述4" style="width: 100%; height: auto; object-fit: cover;">
       <p>描述4</p>
     </td>
   </tr>
 </table>
 
-
-
-</div>
 
 
 ### Broader Impact
