@@ -1,5 +1,5 @@
 # CASA0014: Connected Environments 24/25_LumoStick
-<img src="./images/cl.jpg" alt="cl" style="width: 100%; height: auto;">
+<img src="./images/cl.png" alt="cl" style="width: 100%; height: auto;">
 
 <!--<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
