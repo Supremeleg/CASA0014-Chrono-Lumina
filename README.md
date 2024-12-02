@@ -103,6 +103,55 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 - **Chrono Lumina**: Neopixel ring matrix for dynamic light displays.
 - **ESP32**: The central processing unit, handling gesture recognition and device control.
 - **MPU6050**: A six-axis motion sensor capturing real-time gestures.
+```cpp
+// Fast motion detection
+if (absX > absY && absX > absZ && absX > fastMotionThreshold) {
+    primaryDirection = accXg > 0 ? "X" : "-X";
+    currentMagnitude = absX;
+} else if (absY > absX && absY > absZ && absY > fastMotionThreshold) {
+    primaryDirection = accYg > 0 ? "Y" : "-Y";
+    currentMagnitude = absY;
+} else if (absZ > absX && absZ > absY && absZ > fastMotionThreshold) {
+    primaryDirection = accZg > 0 ? "Z" : "-Z";
+    currentMagnitude = absZ;
+}
+
+// Detect return-to-origin motion
+if (!primaryDirection.isEmpty() && !lastDirection.isEmpty() && 
+    primaryDirection == inverseDirection(lastDirection) &&
+    fabs(currentMagnitude - lastMagnitude) < returnTolerance) {
+    Serial.println("Return-to-origin motion detected, recalibrating offsets");
+    calibrateOffsetsFast();
+    lastDirection = ""; // Clear last motion
+    lastMagnitude = 0;
+    lastNoMovementTime = currentTime; // Reset no-motion timer
+}
+// Output fast motion result
+else if (!primaryDirection.isEmpty() && (currentTime - lastMovementTime > movementCooldown)) {
+    Serial.println(primaryDirection + " direction fast motion detected");
+    lastDirection = primaryDirection; // Save current motion direction
+    lastMagnitude = currentMagnitude; // Save current motion magnitude
+    calibrateOffsetsFast(); // Recalibrate offsets after fast motion
+    lastMovementTime = currentTime; // Update last motion time
+    lastNoMovementTime = currentTime; // Reset no-motion timer
+}
+// Detect slow motion and recalibrate offsets
+else if (primaryDirection.isEmpty() && 
+         (absX > slowMotionThreshold || absY > slowMotionThreshold || absZ > slowMotionThreshold)) {
+    calibrateOffsetsFast(); // Recalibrate offsets during slow motion
+    lastNoMovementTime = currentTime; // Reset no-motion timer
+}
+// No motion detected
+else if (primaryDirection.isEmpty() && (currentTime - lastNoMovementTime > noMovementInterval)) {
+    Serial.println("No motion detected");
+    lastNoMovementTime = currentTime;
+}
+
+delay(200); // Delay for better observation of data
+```
+
+The most difficult part of using the MPU6050 is to identify the threshold and excessive hand movements, such as when I wave the wand, I will habitually withdraw it, which will be detected by the sensor as two movements, so I introduced a homing mechanism.
+
 - **TensorFlow Lite**: Machine learning library for on-device gesture pattern recognition.
 <img src="./images/images.png" alt="Wand Design" style="width: 100%; height: auto;">
 
