@@ -48,21 +48,21 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
   <tr>
     <td>
       <img src="./images/image1.jpg" alt="Virtual Reality" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>Virtual Reality (VR): Enhances immersion and interaction.</p>
+      <p>Virtual Reality</p>
     </td>
     <td>
       <img src="./images/image2.jpg" alt="Assistive Technology" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>Assistive Technology: Empower individuals with disabilities.</p>
+      <p>Assistive Technology</p>
     </td>
   </tr>
   <tr>
     <td>
       <img src="./images/image3.jpg" alt="Interactive Art and Performance" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>Interactive Art and Performance:Create dynamic and responsive environments.</p>
+      <p>Interactive Art and Performance</p>
     </td>
     <td>
       <img src="./images/image4.jpg" alt="Smart Home Devices" style="width: 100%; height: auto; border-radius: 5px;">
-      <p>Smart Home Devices: Interact with connected devices.</p>
+      <p>Smart Home Devices</p>
     </td>
   </tr>
 </table>
