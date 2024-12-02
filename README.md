@@ -84,9 +84,9 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 
 ## 🚀 Design
 
-<img src="./github/images/wand_design.jpg" alt="Wand Design" style="width: 100%; height: auto;">
-<img src="./github/images/wand_protype.jpg" alt="Wand Design" style="width: 100%; height: auto;">
-<img src="./github/images/wand_protype2.jpg" alt="Wand Design" style="width: 100%; height: auto;">
+<img src="./images/wand_design.jpg" alt="Wand Design" style="width: 100%; height: auto;">
+<img src="./images/wand_protype.jpg" alt="Wand Design" style="width: 100%; height: auto;">
+<img src="./images/wand_protype2.jpg" alt="Wand Design" style="width: 100%; height: auto;">
 
 
   
