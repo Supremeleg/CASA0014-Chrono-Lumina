@@ -1,5 +1,5 @@
 # CASA0014: Connected Environments 24/25_LumoStick
-<img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/68d580598b19d6322678822977fc22e6525fc191/images/wand%20design.jpg" alt="替代文本" style="width: 100%; height: auto;" />
+<img src="./images/cl.jpg" alt="cl" style="width: 100%; height: auto;">
 
 <!--<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
