@@ -100,9 +100,11 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 ```
 
 ### Key Technologies
+- **Chrono Lumina**: Neopixel ring matrix for dynamic light displays.
 - **ESP32**: The central processing unit, handling gesture recognition and device control.
 - **MPU6050**: A six-axis motion sensor capturing real-time gestures.
 - **TensorFlow Lite**: Machine learning library for on-device gesture pattern recognition.
+<img src="./images/images.png" alt="Wand Design" style="width: 100%; height: auto;">
 
 <table>
   <tr>
@@ -115,10 +117,12 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 
 
 
-- **Chrono Lumina**: Neopixel ring matrix for dynamic light displays.
+
 
 ### Open-Source Ecosystem
-Lumostick utilizes open-source libraries and tools, fostering collaboration and accessibility for developers and makers worldwide.
+I got the three models they trained from tensorflowlite, after all the initial test identification, the next step is to implement them on Chrono Lumina.
+
+Thanks for the open source model provided by the Tensorflow team. In the next step, I will follow the tutorials provided by Tensorflow to train my own model, which may be a love, and move towards the further goal!
 
 ---
 
@@ -141,21 +145,21 @@ Lumostick utilizes open-source libraries and tools, fostering collaboration and 
 ## 📚 References
 
 - TensorFlow Lite: [https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
+- TensorFlow (ESP32 Version):[https://github.com/petewarden/magic_wand]
 - ESP32 Documentation: [https://espressif.com/](https://espressif.com/)
-- Chrono Lumina (Neopixel Matrix): [Link to product page]
-- Gesture Control in IoT: Research papers and insights ([Add relevant links here])
+- Chrono Lumina (Neopixel Matrix): [https://github.com/ucl-casa-ce/casa0014/tree/271e6a09e3415dd92d1bf312cf6354610c04c1a2/chronoLumina]
 
 ---
 
 ## 🙌 Digital Twin Project
 <!-- Lumostick是一款由 ESP32 和 MPU6050 驱动的手势控制棒，能够触发 Neopixel 环形矩阵 Chrono Lumina 上的效果。除了操控LED灯本身之外，Lumostick的项目还帮助我开始学习使用机器学习来处理数据以及进一步探索人和IoT系统的交互关系-->
 
-We welcome feedback and contributions to expand Lumostick’s capabilities. Feel free to open issues or submit pull requests.
+If time permits, I am planning to build a digital twin for Chrono Lumina, which will be beneficial for the testing of lighting effects and sustainable use in the future. Welcome to join, you can see my model building and lighting grouping for Chrono Lumina in my library.
 
 ---
 
-## 📄 License
+## 📚 Reflection
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
+- The recognition accuracy of the MPU6050 is not high and requires more training.
+- If I want to approach intelligent control, you need to reduce the size of the hardware and increase the multi-dimensional control, such as sound.
 
----
