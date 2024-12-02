@@ -49,21 +49,21 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
   <tr>
     <td style="text-align: center;">
       <img src="./images/image1.jpg" alt="描述1" style="width: 100%; height: auto; object-fit: cover;">
-      <p>描述1</p>
+      <p>**Virtual Reality (VR)**: Gesture-based control enhances immersion and interaction, eliminating the need for physical controllers in VR/AR environments.</p>
     </td>
     <td style="text-align: center;">
       <img src="./images/image2.jpg" alt="描述2" style="width: 100%; height: auto; object-fit: cover;">
-      <p>描述2</p>
+      <p>**Assistive Technology**: Gesture recognition can empower individuals with disabilities by providing accessible ways to control devices, from smart home systems to mobility aids.</p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
       <img src="./images/image3.jpg" alt="描述3" style="width: 100%; height: auto; object-fit: cover;">
-      <p>描述3</p>
+      <p>**Interactive Art and Performance**: Artists and performers can use gesture-based tools to create dynamic and responsive environments.</p>
     </td>
     <td style="text-align: center;">
       <img src="./images/image4.jpg" alt="描述4" style="width: 100%; height: auto; object-fit: cover;">
-      <p>描述4</p>
+      <p>From lighting to smart appliances, gesture control provides a seamless and engaging way to interact with connected devices.</p>
     </td>
   </tr>
 </table>
@@ -97,12 +97,6 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 
 ## 🛠️ Technical Overview
 
-### Material List
-- **ESP32**: Employs TensorFlow Lite for precise pattern recognition.
-- **MPU6050**: Displays unique lighting effects on Chrono Lumina.
-- **Wireless Control**: Operates through ESP32 for seamless and untethered usage.
-- **Customizable Framework**: Easily expandable to recognize additional gestures and control other devices.
-- 
 ### System Workflow
 ```plaintext
 [Gesture Input] -> [MPU6050 Sensor] -> [ESP32 Processing via TensorFlow Lite] -> [Neopixel Control] -> [Visual Output on Chrono Lumina]
@@ -112,7 +106,13 @@ Lumostick's approach showcases the potential of IoT and AI in redefining how hum
 - **ESP32**: The central processing unit, handling gesture recognition and device control.
 - **MPU6050**: A six-axis motion sensor capturing real-time gestures.
 - **TensorFlow Lite**: Machine learning library for on-device gesture pattern recognition.
- ![本地GIF](./images/example.gif "示例GIF")
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./images/gif_slope.gif" alt="GIF 1" style="width: 30%; height: auto; margin: 0 5px;">
+  <img src="./images/gif_wing.gif" alt="GIF 2" style="width: 30%; height: auto; margin: 0 5px;">
+  <img src="./images/gif_ring.gif" alt="GIF 3" style="width: 30%; height: auto; margin: 0 5px;">
+</div>
+
 
 - **Chrono Lumina**: Neopixel ring matrix for dynamic light displays.
 
