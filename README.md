@@ -45,17 +45,26 @@ Lumostick 的方法展示了物联网和人工智能在重新定义人类与技�
 
 
 ### Future Applications
-<table>
-  <tr>
-    <td><img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image1.jpg" alt="图片1" style="width: 100%; height: auto;"></td>
-    <td><img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image2.jpg" alt="图片2" style="width: 100%; height: auto;"></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image3.jpg" alt="图片3" style="width: 100%; height: auto;"></td>
-    <td><img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image4.jpg" alt="图片4" style="width: 100%; height: auto;"></td>
-  </tr>
-</table>
 
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image1.jpg" alt="图片1">
+    <p>描述1：这是图片1</p>
+  </div>
+  <div class="grid-item">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/01136149cd4c7ca02523b96b284decd3c1eaa197/images/image2.jpg" alt="图片2">
+    <p>描述2：这是图片2</p>
+  </div>
+  <div class="grid-item">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image3.jpg" alt="图片3">
+    <p>描述3：这是图片3</p>
+  </div>
+  <div class="grid-item">
+    <img src="https://github.com/Supremeleg/CASA0014-Chrono-Lumina/blob/5847825f6918611a4835459b9187e9119d45466b/images/image4.jpg" alt="图片4">
+    <p>描述4：这是图片4</p>
+  </div>
+</div>
 
 
 
